@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache and temporary files
+.polymath_parser_cache/
+math_vectorstore/ # If you don't want to commit the DB contents
+# If math_json_output contains large or sensitive data, consider adding it too:
+# math_json_output/
+
+# Secrets - CRITICAL
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
